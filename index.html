@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Siddhant - Developer Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Siddhant Portfolio's</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My Name is <span class="purple">Siddhant</span>
+                <div> and I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            
+            <div class="rightSection">
+                <img src="./images/bg.png" alt="Images">
+            </div>
+        </section>
+        <hr />
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Education</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./images/school.png" alt="hiigh-school">
+                    <div class="vertical-title">
+                        High School (2015-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        I done my high school from Little Flower School, Maharajganj in year 2016.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./images/intermediate.png" alt="intermediate">
+                    <div class="vertical-title">
+                        Intermediate (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        I done my Intermediate from Academic Heights Public School, Gorakhpur in year 2018, with stream
+                        PCM.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./images/graduation.png" alt="graduation">
+                    <div class="vertical-title">
+                        Bachelor's of technology (2018-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        In 2022 ,I have completed my bachleor's of technology from Chhatrapati Shahu Ji Maharaj
+                        University in field of Electronics and Communication.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                 <div class="footer-first">
+                    <h3><u>Siddhant's Portfolio</u></h3>
+                 </div>
+                 <div class="fotter-second">
+                      <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                      </ul>
+                 </div>
+                 <div class="footer-third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                      </ul>
+                 </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', '&amp; Software Engineer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
