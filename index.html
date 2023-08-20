@@ -30,8 +30,8 @@
                 <div> and I'm a passionate</div>
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn">Download Resume</button>
-                    <button class="btn">Visit GitHub</button>
+                    <button style="cursor: pointer;" class="btn" id="download-resume">Download Resume</button>
+                    <button style="cursor: pointer;" class="btn"><a style="text-decoration: none; color: #fff;" href="https://github.com/siddhant-maurya17" target="_blank">Visit GitHub</a></button>
                 </div>
             </div>
             
@@ -103,11 +103,8 @@
 
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer.', '&amp; Software Engineer.'],
-            typeSpeed: 50,
-        });
+    <script src="script.js">
+        
     </script>
 </body>
 
