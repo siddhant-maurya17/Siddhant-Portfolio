@@ -161,3 +161,31 @@ footer{
 .footer>div{
     width:223px;
 }
+
+.secondSection-1{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection-1 .box-1{
+    background: white;
+    width: 80vw;
+    height:2px;
+    margin:100px 0px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.secondSection-1 .vertical-1{
+    height: 93px;
+    width:1px;
+    background-color: white;
+    margin:0 200px;
+}
+.imagery{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
